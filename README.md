@@ -8,7 +8,7 @@ Este é um projeto de estudo focado em construir uma API REST com operações CR
 
 ## 🔧 Tecnologias Utilizadas
 
-- **Java 25 (JDK 25)** - Versão mais recente da linguagem
+- **Java 24 (JDK 24)** - Versão mais recente da linguagem
 - **Spring Boot** - Framework para desenvolvimento de aplicações Java
 - **Spring Data JPA** - Abstração para acesso a dados
 - **H2 Database** - Banco de dados em memória para desenvolvimento
