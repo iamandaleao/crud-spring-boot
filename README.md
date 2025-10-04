@@ -1,7 +1,7 @@
 # 🧩 CRUD Completo com Java e Spring Boot
 
 <p align="center">
-  <img src="capa-crudspring.png" alt="CRUD Java Spring Boot" width="300"/>
+  <img src="intellij.png" alt="CRUD Java Spring Boot" width="400"/>
 </p>
 
 
