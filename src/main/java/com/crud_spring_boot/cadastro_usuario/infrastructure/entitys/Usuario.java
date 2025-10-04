@@ -1,6 +1,7 @@
 package com.crud_spring_boot.cadastro_usuario.infrastructure.entitys;
 
-import lombok.Getter;
+import jakarta.persistence.*;
+        import lombok.*;
 
 @Getter
 @Setter
@@ -9,14 +10,13 @@ import lombok.Getter;
 @Builder
 @Table(name = "usuario")
 @Entity
-
 public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @Column(nome = "email", unique = true)
+    @Column(name = "email", unique = true)
     private String email;
 
     @Column(name = "nome")

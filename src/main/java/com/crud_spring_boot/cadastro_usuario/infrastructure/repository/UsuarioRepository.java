@@ -1,13 +1,15 @@
 package com.crud_spring_boot.cadastro_usuario.infrastructure.repository;
 
-import com.crud_spring_boot.cadastro_usuario.infrastructure.entitys.Usuario;
+import com.crud_spring_boot.cadastro_usuario.infrastructure.entitys.Usuario; // verifique se é entity e não entitys
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.transaction.annotation.Transactional;
 
-Import java.util.Optional;
+import java.util.Optional;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 
     Optional<Usuario> findByEmail(String email);
-    @Transaction
+
+    @Transactional
     void deleteByEmail(String email);
 }
